@@ -49,7 +49,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
             className={clsx(
               "default-input peer block rounded w-full border-2 border-gray-400 shadow-sm sm:text-sm p-4 h-12",
               "disabled:cursor-not-allowed disabled:opacity-50",
-              "focus:border-blue-500 focus:outline-none",
+              "focus:border-sky-700 focus:outline-none",
               { "!pl-10": withIconBefore },
               { "border-error focus:border-error": hasError }
             )}
@@ -63,7 +63,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
               clsx(
                 "absolute top-1/2 -translate-y-1/2  left-4",
                 "block transition-all duration-300 ease-out text-gray-500 px-2",
-                "pointer-events-none peer-focus:text-blue-500 peer-focus:-translate-y-9 peer-focus:bg-white",
+                "pointer-events-none peer-focus:text-sky-700 peer-focus:-translate-y-9 peer-focus:bg-white",
                 {
                   " -translate-y-9 bg-white": isValid || hasError,
                 },

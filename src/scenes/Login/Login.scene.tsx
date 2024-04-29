@@ -29,7 +29,7 @@ function Login() {
   } = useForm<LoginForm>({
     resolver: zodResolver(LoginFormSchema),
     defaultValues: {
-      email: "demo@email.com",
+      email: "demo@gmail.com",
       password: "demo1234",
     },
   });
@@ -46,7 +46,7 @@ function Login() {
   }, [authData, status]);
 
   return (
-    <main className="bg-gray-50 relative flex flex-col justify-center items-center min-h-[calc(100vh_-_3rem)]">
+    <main className="bg-gray-50 relative flex flex-col justify-center items-center min-h-screen px-6 sm:px-0">
       <div className="w-full max-w-xl p-16 rounded-2xl bg-white shadow-[rgba(100,_100,_111,_0.2)_0px_7px_29px_0px]">
         <Logo
           className="w-24 h-24 block mx-auto mb-4"

@@ -10,7 +10,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
   return (
     <>
       <Transition>{children}</Transition>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
