@@ -15,7 +15,10 @@ const About = () => {
   return (
     <>
       <div className="relative before:absolute before:inset-0 before:z-10 before:-translate-y-28 before:bg-contain before:bg-no-repeat before:bg-[url('/assets/svg/hashes.svg')] before:opacity-50">
-        <section id="hero" className="pt-28 max-w-5xl mx-auto relative z-20">
+        <section
+          id="hero"
+          className="pt-28 max-w-5xl mx-auto relative z-20 px-6 lg:px-0"
+        >
           <h1 className="text-center tex-deeppurple lg:text-5xl">
             To revolutionize industries through innovative technology solutions,
             driving positive change and empowering individuals and businesses
@@ -56,7 +59,7 @@ const About = () => {
       <div className="bg-gray-100 py-20 mt-24">
         <section
           id="our-story"
-          className="max-w-screen-lg mx-auto grid md:grid-cols-2 items-center gap-8 md:gap-16 "
+          className="max-w-screen-lg mx-auto px-6 lg:px-0 grid md:grid-cols-2 items-center gap-8 md:gap-16 "
         >
           <div>
             <h1 className="text-4xl mb-6">Our Story</h1>
@@ -117,7 +120,10 @@ const About = () => {
       </div>
 
       <div className="relative before:absolute before:inset-0 before:z-10 before:-translate-y-28 before:bg-contain before:bg-no-repeat before:bg-[url('/assets/svg/hashes.svg')] before:opacity-50">
-        <section id="hero" className="pt-28 max-w-5xl mx-auto relative z-20">
+        <section
+          id="hero"
+          className="pt-28 max-w-5xl mx-auto px-6 lg:px-0 relative z-20"
+        >
           <h1 className="text-center tex-deeppurple lg:text-7xl">
             Guided by Integrity and Purpose
           </h1>
@@ -137,7 +143,7 @@ const About = () => {
               </p>
             </div>
 
-            <div className="flex flex-col items-center gap-4 border-y border-main/50 md:border-y-0 md:border-x px-12">
+            <div className="flex flex-col items-center gap-4 border-y border-main/50 md:border-y-0 md:border-x px-12 py-12 md:py-0">
               <Innovation className="text-main w-10 h-10" />
               <h3 className="font-semibold text-2xl">Innovation</h3>
               <p className="text-grey text-center mt-2">
@@ -165,7 +171,7 @@ const About = () => {
               </p>
             </div>
 
-            <div className="flex flex-col items-center gap-4 border-y border-main/50 md:border-y-0 md:border-x px-12">
+            <div className="flex flex-col items-center gap-4 border-y border-main/50 md:border-y-0 md:border-x px-12 py-12 md:py-0">
               <Sustainability className="text-main w-10 h-10" />
               <h3 className="font-semibold text-2xl">Sustainability</h3>
               <p className="text-grey text-center mt-2">
@@ -188,7 +194,10 @@ const About = () => {
 
       <Testimonials />
 
-      <section id="trusted-by" className="max-w-5xl mx-auto py-20 pb-28">
+      <section
+        id="trusted-by"
+        className="max-w-5xl mx-auto px-6 lg:px-0 py-20 pb-28"
+      >
         <h1 className="text-4xl text-center mb-5">
           Trusted by Industry Leaders
         </h1>

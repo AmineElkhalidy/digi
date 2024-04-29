@@ -6,7 +6,10 @@ export default function Features() {
   return (
     <>
       <div className="relative before:absolute before:inset-0 before:z-10 before:-translate-y-28 before:bg-contain before:bg-no-repeat before:bg-[url('/assets/svg/hashes.svg')] before:opacity-50">
-        <section id="hero" className="pt-28 max-w-5xl mx-auto relative z-20">
+        <section
+          id="hero"
+          className="pt-28 max-w-5xl mx-auto relative z-20 px-6 lg:px-0"
+        >
           <h1 className="text-center tex-deeppurple lg:text-7xl">
             How <span className="text-main">signing up</span> with The Design
             Project works!?

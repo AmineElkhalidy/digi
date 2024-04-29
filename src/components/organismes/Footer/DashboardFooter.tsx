@@ -12,7 +12,7 @@ const DashboardFooter = () => {
           href="https://samoudianas.dev"
           className="underline text-white"
         >
-          Anas Samoudi
+          Digi.
         </a>
       </p>
     </footer>

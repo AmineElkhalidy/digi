@@ -9,7 +9,10 @@ export default function Features() {
   return (
     <>
       <div className="relative before:absolute before:inset-0 before:z-10 before:-translate-y-28 before:bg-contain before:bg-no-repeat before:bg-[url('/assets/svg/hashes.svg')] before:opacity-50">
-        <section id="hero" className="pt-28 max-w-5xl mx-auto relative z-20">
+        <section
+          id="hero"
+          className="pt-28 max-w-5xl mx-auto relative z-20 px-6 lg:px-0"
+        >
           <h1 className="text-center tex-deeppurple lg:text-7xl">
             Guided by Integrity and Purpose
           </h1>
@@ -19,7 +22,7 @@ export default function Features() {
             practices, and a shared commitment to making a positive impact.
           </p>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-y-16 bg-white border border-main/50 py-16 rounded-2xl my-24">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-y-16 bg-white border border-main/50 py-16 rounded-2xl my-20">
             <div className="flex flex-col items-center gap-4 px-12">
               <Integrity className="text-main w-10 h-10" />
               <h3 className="font-semibold text-2xl">Integrity</h3>
@@ -29,7 +32,7 @@ export default function Features() {
               </p>
             </div>
 
-            <div className="flex flex-col items-center gap-4 border-y border-main/50 md:border-y-0 md:border-x px-12">
+            <div className="flex flex-col items-center gap-4 border-y border-main/50 md:border-y-0 md:border-x px-12 py-12 md:py-0">
               <Innovation className="text-main w-10 h-10" />
               <h3 className="font-semibold text-2xl">Innovation</h3>
               <p className="text-grey text-center mt-2">
@@ -57,7 +60,7 @@ export default function Features() {
               </p>
             </div>
 
-            <div className="flex flex-col items-center gap-4 border-y border-main/50 md:border-y-0 md:border-x px-12">
+            <div className="flex flex-col items-center gap-4 border-y border-main/50 md:border-y-0 md:border-x px-12 py-12 md:py-0">
               <Sustainability className="text-main w-10 h-10" />
               <h3 className="font-semibold text-2xl">Sustainability</h3>
               <p className="text-grey text-center mt-2">

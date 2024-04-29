@@ -4,7 +4,7 @@ function FAQs() {
   return (
     <div>
       <section className="bg-gray-100 py-20">
-        <div className="max-w-screen-lg mx-auto">
+        <div className="max-w-screen-lg mx-auto px-6 lg:px-0">
           <h1 className="text-center text-5xl mb-5">
             Answers to some of your questions
           </h1>
@@ -14,7 +14,7 @@ function FAQs() {
               href="mailto:contact@samoudianas.dev"
               className="text-main font-medium hover:underline"
             >
-              contact@samoudianas.dev
+              contact@digi.com
             </a>
           </p>
 

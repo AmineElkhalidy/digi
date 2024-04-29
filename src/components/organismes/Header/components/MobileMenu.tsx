@@ -1,8 +1,6 @@
-import { Logo } from "@/components/atoms/Logo";
 import { NavLink } from "@/components/atoms/NavLink";
 import { links } from "@/constants/navLinks";
 import clsx from "clsx";
-import Link from "next/link";
 import { Dispatch, SetStateAction } from "react";
 
 interface MobileMenuProps {
@@ -26,6 +24,7 @@ function MobileMenu({ isOpen, setIsOpen }: MobileMenuProps) {
             href={link.path}
             variant="white"
             className="text-xl"
+            onClick={() => setIsOpen(!isOpen)}
           >
             {link.name}
           </NavLink>
