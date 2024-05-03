@@ -48,10 +48,10 @@ function Login() {
   return (
     <main className="bg-gray-50 relative flex flex-col justify-center items-center min-h-screen px-6 sm:px-0">
       <div className="w-full max-w-xl p-16 rounded-2xl bg-white shadow-[rgba(100,_100,_111,_0.2)_0px_7px_29px_0px]">
-        <Logo
+        {/* <Logo
           className="w-24 h-24 block mx-auto mb-4"
           pathClassName="fill-main"
-        />
+        /> */}
         <h1 className="text-3xl text-dark text-center mb-12 font-semibold">
           Welcome To <span className="text-main">Digi.</span> <br /> Dashboard!
         </h1>
